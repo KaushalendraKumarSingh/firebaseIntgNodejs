@@ -1,0 +1,41 @@
+[debug] [2018-08-07T09:32:50.354Z] ----------------------------------------------------------------------
+[debug] [2018-08-07T09:32:50.357Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kaushalendra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-07T09:32:50.358Z] CLI Version:   4.0.3
+[debug] [2018-08-07T09:32:50.358Z] Platform:      win32
+[debug] [2018-08-07T09:32:50.358Z] Node Version:  v8.11.2
+[debug] [2018-08-07T09:32:50.359Z] Time:          Tue Aug 07 2018 15:02:50 GMT+0530 (India Standard Time)
+[debug] [2018-08-07T09:32:50.359Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-07T09:32:50.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-07T09:32:50.387Z] > authorizing via signed-in user
+[debug] [2018-08-07T09:32:50.391Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-07T09:32:50.391Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/aBNyG1nmYuUyzG5X1uXgxy4ODVWc8xkfPpfQeZmpBEw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 07 2018 15:02:50 GMT+0530 (India Standard Time)
+[debug] [2018-08-07T09:32:50.978Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T09:32:51.057Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/assignment-1cdb9  
+  
+ Tue Aug 07 2018 15:02:51 GMT+0530 (India Standard Time)
+[debug] [2018-08-07T09:32:53.003Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T09:32:53.006Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/assignment-1cdb9/tokens  
+  
+ Tue Aug 07 2018 15:02:53 GMT+0530 (India Standard Time)
+[debug] [2018-08-07T09:32:54.394Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T09:32:54.398Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/assignment-1cdb9  
+  
+ Tue Aug 07 2018 15:02:54 GMT+0530 (India Standard Time)
+[debug] [2018-08-07T09:32:56.286Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Kaushalendra\Desktop\ytassignment'...
+[info] 
+[debug] [2018-08-07T09:32:56.295Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/777433041580/clients/_:getWebAppConfig  
+  
+ Tue Aug 07 2018 15:02:56 GMT+0530 (India Standard Time)
+[debug] [2018-08-07T09:32:59.359Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

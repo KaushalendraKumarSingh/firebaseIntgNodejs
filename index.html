@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <h1 id="bigOne"></h1>
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAfkJBALz53Li0RF4hJxTEP4a10kMma260",
+      authDomain: "assignment-1cdb9.firebaseapp.com",
+      databaseURL: "https://assignment-1cdb9.firebaseio.com",
+      projectId: "assignment-1cdb9",
+      storageBucket: "assignment-1cdb9.appspot.com",
+      messagingSenderId: "777433041580"
+    };
+    firebase.initializeApp(config);
+
+    var bigOne = document.getElementById('bigOne');
+    var dbRef = firebase.database().ref().child('text');
+    dbRef.on('value',snap=>bigOne.innerText = snap.val());
+
+  </script>
+  </body>
+</html>
